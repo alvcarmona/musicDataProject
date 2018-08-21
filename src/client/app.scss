@@ -1,3 +1,5 @@
+$navy: #001e38;
+$green: #15b78f;
 .App {
   text-align: center;
 }
@@ -8,10 +10,10 @@
 }
 
 .App-header {
-  background-color: #222;
-  color: #fff;
+  background-color: $navy;
   height: 50px;
   padding: 20px;
+  color: white;
 }
 
 .App-title {
