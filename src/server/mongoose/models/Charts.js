@@ -8,10 +8,20 @@ const Schema = mongoose.Schema;
 */
 
 const ChartSchema = new Schema({
+    _id: String,
     name: String,
     url: String,
-    chart: String,
-    country: String
+    data: String,
+    country: String,
+    metadata: String
 });
 
-export default mongoose.model('Chart', ChartSchema);
+const SiteSchema = new Schema({
+    _id: String,
+    name: String,
+    url: String,
+    description: String,
+    nested: [ChartSchema]
+});
+
+module.exports = { Chart:mongoose.model('Chart', ChartSchema),Site:mongoose.model('Site', SiteSchema)};
