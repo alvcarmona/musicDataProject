@@ -6,7 +6,8 @@
       }
     }],
     "react",
-    "stage-2"
+    "stage-3",
+    "es2017"
   ],
   "plugins": [
     "transform-class-properties"

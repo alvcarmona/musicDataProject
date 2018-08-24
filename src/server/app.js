@@ -1,29 +1,11 @@
 import express from 'express';
 const app = express();
 const PORT = 8080;
-import schema from './graphql/schema';
-import bodyParser from 'body-parser';
-import dbconnection from './mongoose'
-const { ApolloServer, gql } = require('apollo-server-express');
 const os = require("os");
+import bodyParser from 'body-parser';
+import server from './graphql'
+import graphlHTTP from 'express-graphql';
 
-// Construct a schema, using GraphQL schema language
-const typeDefs = gql`
-    type Query {
-        hello: String
-    }
-`;
-
-
-
-// Provide resolver functions for your schema fields
-const resolvers = {
-    Query: {
-        hello: () => 'Hello world!',
-    },
-};
-
-const server = new ApolloServer({ typeDefs, resolvers });
 
 app.get('/api/', (request, response) => {
     return response.json({
@@ -33,12 +15,12 @@ app.get('/api/', (request, response) => {
 
 
 app.use(express.static("dist"));
+//app.use('/graphql', bodyParser.json(), graphqlExpress({schema}));
+
 app.get("/api/getUsername", (req, res) =>
     res.send({ username: os.userInfo().username })
 );
-
-server.applyMiddleware({ app });
-
+server.applyMiddleware({app})
 app.listen(PORT, () => {
-    console.log(`Server is running at PORT ${PORT}`);
+    console.log(`Server is running at PORT ${PORT} Graph ${server.graphqlPath}`);
 });

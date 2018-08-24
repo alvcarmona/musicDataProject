@@ -8,10 +8,10 @@ const Schema = mongoose.Schema;
 */
 
 const ChartSchema = new Schema({
-    name: ObjectId,
+    name: String,
     url: String,
     chart: String,
     country: String
 });
 
-module.exports = mongoose.model('Chart', ChartSchema);
+export default mongoose.model('Chart', ChartSchema);
