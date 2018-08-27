@@ -74,8 +74,6 @@ function checkValidServiceWorker(swUrl) {
       );
     });
 }
-
-
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
@@ -109,8 +107,6 @@ export default function register() {
     });
   }
 }
-
-
 export function unregister() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then((registration) => {
