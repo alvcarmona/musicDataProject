@@ -1,8 +1,8 @@
-const { ApolloServer, gql } = require('apollo-server-express');
 import {typeDefs,resolvers} from './chart'
+const { GraphQLServer } = require('graphql-yoga')
 // The GraphQL schema
 
-const server = new ApolloServer({
+const server = new GraphQLServer({
     typeDefs,
     resolvers,
 });

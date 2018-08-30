@@ -5,10 +5,17 @@ const os = require("os");
 import server from './graphql'
 
 app.use(express.static("dist"));
-app.get("/api/getUsername", (req, res) =>
-    res.send({ username: os.userInfo().username })
-);
-server.applyMiddleware({app})
-app.listen(PORT, () => {
-    console.log(`Server is running at PORT ${PORT} Graph ${server.graphqlPath}`);
-});
+
+server.express.use(app)
+
+const options = {
+    port: 8080,
+    endpoint: '/graphql',
+    subscriptions: '/subscriptions',
+    playground: '/playground',
+}
+
+server.start(options, ({ port }) =>
+    console.log(
+        `Server started, listening on port ${port} for incoming requests.`,
+    ),)
