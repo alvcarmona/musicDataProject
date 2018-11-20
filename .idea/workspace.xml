@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde08b9c-e48d-4a96-9d66-cfa036d892eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/BootstrapComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/BootstrapComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/CalendarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/CalendarComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/ListComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/ListComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/WorldMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/WorldMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/middleware/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/middleware/apollo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/registerServiceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -3439,10 +3424,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="396" />
+    <option name="y" value="132" />
+    <option name="width" value="885" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3627,7 +3613,7 @@
       <workItem from="1542448125819" duration="609000" />
       <workItem from="1542545790241" duration="682000" />
       <workItem from="1542622036386" duration="2763000" />
-      <workItem from="1542706304023" duration="1117000" />
+      <workItem from="1542706304023" duration="2449000" />
     </task>
     <servers />
   </component>
@@ -3637,7 +3623,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146318000" />
+    <option name="totallyTimeSpent" value="147650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3649,7 +3635,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48128343" weight="0.38037634" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -3665,7 +3651,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15781923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45673758" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
