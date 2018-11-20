@@ -10,7 +10,7 @@ export default class BootstrapComponent extends React.Component {
       <Container>
         <Row>
           <Col sm={{ size: 9, offset: 1 }}>
-            <WorldMap />
+            {/* <WorldMap /> */}
           </Col>
         </Row>
         <Row>
@@ -19,7 +19,7 @@ export default class BootstrapComponent extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col sm={{ size: 9, offset: 1 }}>
+          <Col xs={{ size: 11 }}>
             <ListComponent />
           </Col>
         </Row>

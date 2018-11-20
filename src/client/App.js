@@ -6,16 +6,17 @@ import './index.css';
 import './app.scss';
 import { ApolloProvider } from 'react-apollo';
 import client from './middleware/apollo';
-/*
+
 import BootstrapComponent from './components/BootstrapComponent';
-<BootstrapComponent />
+/*
 */
 const App = () => (
   <div className="App">
     <ApolloProvider client={client}>
       <header className="App-header">
-        <h1 className="App-title">App</h1>
+        <h1 className="App-title">Music Data</h1>
       </header>
+      <BootstrapComponent />
     </ApolloProvider>
   </div>
 );
