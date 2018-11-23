@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fde08b9c-e48d-4a96-9d66-cfa036d892eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,9 +25,9 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -3143,11 +3145,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.69758064">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+                <state relative-caret-position="89">
+                  <caret line="88" column="9" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -3173,11 +3175,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/components/ListComponent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1273">
-                  <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+                <state relative-caret-position="1121">
+                  <caret line="59" selection-start-line="59" selection-end-line="60" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -3229,7 +3231,7 @@
             <entry file="file://$PROJECT_DIR$/src/server/data_scrapper/server.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="399">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -3241,7 +3243,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/components/ListComponent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
+                <state relative-caret-position="206">
                   <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -3287,7 +3289,7 @@
             <entry file="file://$PROJECT_DIR$/src/client/App.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="171">
-                  <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+                  <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -3424,11 +3426,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="396" />
-    <option name="y" value="132" />
-    <option name="width" value="885" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2084" />
+    <option name="y" value="100" />
+    <option name="width" value="783" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3436,7 +3438,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3444,41 +3445,11 @@
               <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="musicDataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicDataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="data_scrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3613,7 +3584,9 @@
       <workItem from="1542448125819" duration="609000" />
       <workItem from="1542545790241" duration="682000" />
       <workItem from="1542622036386" duration="2763000" />
-      <workItem from="1542706304023" duration="2449000" />
+      <workItem from="1542706304023" duration="2870000" />
+      <workItem from="1542882984712" duration="1537000" />
+      <workItem from="1542964272323" duration="247000" />
     </task>
     <servers />
   </component>
@@ -3623,7 +3596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147650000" />
+    <option name="totallyTimeSpent" value="149855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3635,9 +3608,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48128343" weight="0.38037634" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48128343" visible="true" weight="0.20508744" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5187166" side_tool="true" weight="0.18564357" />
       <window_info anchor="bottom" id="GraphQL" order="0" weight="0.3283582" />
@@ -3651,7 +3624,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45673758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5993072" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -3925,13 +3898,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/components/ListElementComponent.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/data_scrapper/filters/countries.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3984,17 +3950,7 @@
     <entry file="file://$PROJECT_DIR$/src/server/data_scrapper/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/ListComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -4028,7 +3984,24 @@
     <entry file="file://$PROJECT_DIR$/src/client/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/ListComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" selection-start-line="59" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="9" />
         </state>
       </provider>
     </entry>
