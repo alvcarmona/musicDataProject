@@ -40,6 +40,7 @@
     "mongoose": "^5.2.9",
     "node-sass": "^4.9.3",
     "popper.js": "^1.14.4",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-apollo": "^2.1.11",
     "react-calendar-heatmap": "^1.6.3",
@@ -52,6 +53,7 @@
     "sass-loader": "^7.1.0",
     "sync": "^0.2.5",
     "topojson-client": "^3.0.0",
+    "unfetch": "^4.0.1",
     "vx": "0.0.1"
   },
   "devDependencies": {

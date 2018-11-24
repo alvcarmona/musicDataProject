@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import WorldMap from './WorldMap';
+// import WorldMap from './WorldMap';
 import ListComponent from './ListComponent';
 import CalendarComponent from './CalendarComponent';
 

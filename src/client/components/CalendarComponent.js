@@ -1,5 +1,5 @@
 import React from 'react';
-import CalendarHeatmap from 'react-calendar-heatmap';
+// import CalendarHeatmap from 'react-calendar-heatmap';
 import {
   Dropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
@@ -31,8 +31,19 @@ export default class CalendarComponent extends React.Component {
       position: 1,
       date: '12/03/18',
     }];
+    const { dropdownOpen } = this.state;
     return (
-      <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+      <Dropdown isOpen={dropdownOpen} toggle={this.toggle}>
+        { /* <Calendar Heatmap
+        startDate={new Date('2017-01-01')}
+        endDate={new Date('2018-08-15')}
+        values={[
+          { date: '2016-01-01' },
+          { date: '2016-01-22' },
+          { date: '2016-01-30' },
+          // ...and so on
+        ]}
+      /> */ }
         <DropdownToggle>
                 Fecha
         </DropdownToggle>
@@ -65,13 +76,3 @@ export default class CalendarComponent extends React.Component {
     );
   }
 }
-{ /* <CalendarHeatmap
-        startDate={new Date('2017-01-01')}
-        endDate={new Date('2018-08-15')}
-        values={[
-          { date: '2016-01-01' },
-          { date: '2016-01-22' },
-          { date: '2016-01-30' },
-          // ...and so on
-        ]}
-      /> */ }
